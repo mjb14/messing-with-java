@@ -7,7 +7,7 @@ I added some code that I wrote for the course into this project.  The code is no
 
 There are 3 applications:
 
-1. percolation - the classic percolation problem - determine number of spaces that must be 'opened' on an N by N grid so that the top row of the grid is connected to the bottom grid.
+1. percolation - the classic percolation problem - determine number of spaces that must be 'opened' on an N by N grid so that the top row of the grid is connected to the bottom grid.  As another self determined fun exercise, I tried working this out as an AngularJS application just to mess around with the UI aspect of it.  The code lives in https://github.com/mjb14/percolation/tree/master/app and a demo of that can be viewed at: http://www.risingthree.com/percolation/app/index.html#/wquf
 
 2. points - the goal was to read a file of points and determine how many unique lines could be drawn that connected 4 or more points.  The lines were to be drawn.  Two different techniques had to be used, a brute force approach (which couldn't handle a massive file of points) and a more optimized approach that could handle a very large number of points.
 
