@@ -13,10 +13,10 @@ There are 3 applications:
 
 3. puzzle - given a N by N grid with all spaces occupied by the numbers (N*N -1, with a single empty space), determine if it was possible to arrange the numbers in order when only 1 number could be moved at a time to the empty space (freeing up a new empty space for other numbers to roate into).  The application had to determine the fewest number of moves possible to achieve the goal and print out the solution.
 
-In addition to the 3 I did to mess around with Java, I did the zappos challenge application (download images from rest api and save them locally.  I put the code for that with instructions on running it at: https://bitbucket.org/brennan3/zappos-challenge-2/src/f7a2cb6994e8?at=master
+In addition to the 3 I did to mess around with Java, I did the zappos challenge application (download images from rest api and save them locally.  This was the first Java code that I had written in essentially 10 years.  I put the code for that with instructions on running it at: https://bitbucket.org/brennan3/zappos-challenge-2/src/f7a2cb6994e8?at=master
 
 I used a few different techniques with that application: 
-1. Stored api key in a properties file.  Encrypted the value.
-2. Used Maven to help with dependencies
-3. Used Cobertura to generate coverage reports
-4. Used SLF4J with log4j for logging
+- Stored api key in a properties file.  Encrypted the value.
+- Used Maven to help with dependencies
+- Used Cobertura to generate coverage reports
+- Used SLF4J with log4j for logging
